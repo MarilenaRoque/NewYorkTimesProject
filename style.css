@@ -1,0 +1,21 @@
+body{
+    font-family: 'Source Serif Pro', serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+nav img{
+    width: 210px;
+}
+
+.nav-buttons{
+ background-color: rgb(86, 123, 149);
+ color: white;
+ font-size: small;
+ border: 10px;
+ margin: 2px;
+ padding: 10px;
+}
