@@ -1,7 +1,13 @@
 /* GENERAL*/
+
+*, *:after, *:before{
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
 body{
     font-family: 'Crimson Text', serif;
-    font-size: 20px;
 }
 /* NavBar */
 nav{
@@ -9,6 +15,11 @@ nav{
     justify-content: space-between;
     border-bottom: 1px solid #e2e2e2;
     align-items: center;
+    padding: 0px 10px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    border-bottom: 1px solid #e2e2e2;
 }
 
 nav img{
@@ -18,15 +29,20 @@ nav img{
 .nav-buttons{
  background-color: rgb(86, 123, 149);
  color: white;
- font-size: small;
  border: 1px solid rgb(50, 104, 145);
- margin: 2px;
- padding: 0.5em;
  border-radius: 3px;
+ padding: 11px;
 }
 
+.space-cosmos:hover{
+    text-decoration: underline;
+}
+
+
+
 .material-icons{
-    padding: 0.5em;
+    font-size: 20px !important;
+    padding-right: 20px;
 }
 
 a {
@@ -41,25 +57,76 @@ a {
 
 /* Main */
 .principal-img{
-    width: 90%;
-    max-width: 50em;
+    width: 100%;
+
 }
 
 .img-mainNew{
     display: flex;
     flex-direction: column;
-    max-width: 50em;  
+    width: 80%;  
     margin: auto;
 }
 
-h1{
-    display: block;
-    font-weight: bold;
-    font-style: italic;
-    padding: 1em;
-    max-width: 30em;
-    font-size: 2em;
+.img-mainNew figcaption{
+    width: 85%;
+    line-height: 25px;
 }
 
 
+
+
+h1{
+    font-style: italic;
+    width: 600px;
+    margin: auto;
+    padding: 50px 0px;
+}
+
+.first-text-container{
+    width:60%;
+    margin: auto;
+}
+
+
+.head-new{
+    display: flex;
+    justify-content: space-between;
+}
+
+.head-new-buttons span{
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    padding: 2px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+.media-icon{
+    width: 15px;
+}
+
+.bookmark{
+    width: 12px;
+}
+
 /**/
+
+.font-ch{font-family: 'Crimson Text', serif;}
+.font-imp{font-family: 'Roboto Mono', monospace;}
+.font-fr{font-family: Arial, Helvetica, sans-serif;}
+.font-40{font-size: 40px;}
+.font-23{font-size: 23px;}
+.font-18{font-size: 18px;}
+.font-16{font-size: 16px;}
+.font-15{font-size: 15px;}
+.font-14{font-size: 14px;}
+.font-13{font-size: 13px;}
+.font-12{font-size: 12px;}
+.font-11{font-size: 11px;}
+.font-10{font-size: 10px;}
+.bold{font-weight: bold;}
+.darkgray{color: #333;}
+.mediumgray{color: #666;}
+.lightgray{color: #888;}
