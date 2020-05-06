@@ -9,6 +9,11 @@
 body{
     font-family: 'Crimson Text', serif;
 }
+
+hr{
+    border: 0.5px solid #e2e2e2;
+}
+
 /* NavBar */
 nav{
     display: flex;
@@ -130,3 +135,55 @@ h1{
 .darkgray{color: #333;}
 .mediumgray{color: #666;}
 .lightgray{color: #888;}
+
+/* menu-footer */
+
+.footertitle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 3px double #e2e2e2;
+    padding: 8px 0px;
+}
+
+.footertitle img{
+    width: 200px;
+}
+
+.navfooter{
+    margin: 0px 35px;
+    padding: 0px 40px 9px;
+    border-bottom: 1p solid #e2e2e2;
+}
+
+.footer-all-columns{
+    display: flex;
+    justify-content: space-between;
+}
+
+.subscribefooter{
+    border-left: 0.5px solid #e2e2e2;
+    padding: 15px;
+    width: 197px;;
+}
+
+.footer-column{
+    line-height: 25px;
+}
+h6{
+    font-weight: bold;
+}
+
+li img {
+    padding: 0px 2px;
+}
+/* footer */
+
+footer ul{
+    display: flex;
+    justify-content: space-around;
+    width: 77%;
+    margin: auto;
+    letter-spacing: -1px;
+    padding-bottom: 25px;
+}
