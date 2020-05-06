@@ -1,0 +1,65 @@
+/* GENERAL*/
+body{
+    font-family: 'Crimson Text', serif;
+    font-size: 20px;
+}
+/* NavBar */
+nav{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #e2e2e2;
+    align-items: center;
+}
+
+nav img{
+    width: 210px;
+}
+
+.nav-buttons{
+ background-color: rgb(86, 123, 149);
+ color: white;
+ font-size: small;
+ border: 1px solid rgb(50, 104, 145);
+ margin: 2px;
+ padding: 0.5em;
+ border-radius: 3px;
+}
+
+.material-icons{
+    padding: 0.5em;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.left-nav{
+    display: flex;
+    align-items: center;
+}
+
+/* Main */
+.principal-img{
+    width: 90%;
+    max-width: 50em;
+}
+
+.img-mainNew{
+    display: flex;
+    flex-direction: column;
+    max-width: 50em;  
+    margin: auto;
+}
+
+h1{
+    display: block;
+    font-weight: bold;
+    font-style: italic;
+    padding: 1em;
+    max-width: 30em;
+    font-size: 2em;
+}
+
+
+/**/
