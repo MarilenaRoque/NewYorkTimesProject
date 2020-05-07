@@ -47,8 +47,6 @@ nav img{
     text-decoration: underline;
 }
 
-
-
 .material-icons{
     font-size: 20px !important;
     padding-right: 20px;
@@ -58,6 +56,7 @@ a {
     text-decoration: none;
     color: black;
 }
+
 
 .left-nav{
     display: flex;
@@ -112,14 +111,14 @@ h1{
 
 
 .medialogo{
-    display: inline-block;
     width: 26px;
     height: 26px;
-    padding: 2px;
-    margin: 6px;
     background-color: #eee;
     border-radius: 50%;
     border: 1px solid #eee;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
 
 }
 
@@ -131,9 +130,6 @@ h1{
 
 .media-icon{
     width: 13px;
-    position: relative;
-    left: 3px;
-    top: 3px;
 }
 
 .bookmark{
@@ -161,6 +157,9 @@ h1{
 .darkgray{color: #333;}
 .mediumgray{color: #666;}
 .lightgray{color: #888;}
+.blue{ color: #326891;}
+.linktext{text-decoration: underline;}
+.linktext:hover{text-decoration: none;}
 
 /* menu-footer */
 
@@ -259,8 +258,26 @@ footer ul{
     margin-bottom: 15px;
 }
 
+
+.login-division{
+    display: block;
+    margin: auto;
+    padding: 20px 0px;
+    text-align: center;
+}
+.hr-login{
+    width: 72px;
+    border-color:rgb(182, 179, 179);
+}
+.login-text{
+    padding: 10px;
+    line-height: 20px;
+}
 .telescope-img{
     width: 100%;
+}
+.Telescope {
+    padding: 40px 0px;
 }
 
 
@@ -290,7 +307,7 @@ h4{
 
 .MostPopular{
     float: right;
-    width: 24%;
+    width: 27.5%;
 }
 
 .rows-asside{
@@ -299,8 +316,24 @@ h4{
 }
 
 .assides{
-    padding: 39px;
+    padding: 45px;
+}
+/* titles inside main*/
+h3{
+    padding: 20px 0px;
+    font-weight: bolder;
 }
 
+.figure-caption-items{
+    color: #888;
+    font-size: 13px;
+    text-align: right;
+}
+
+iframe{
+    width:98%;
+    height:400px;
+    padding-top: 50px;
+}
 
 
