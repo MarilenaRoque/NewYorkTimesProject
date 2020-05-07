@@ -1,9 +1,9 @@
 /* GENERAL*/
 
 *, *:after, *:before{
-    -webkit-box-sizing: content-box;
-    -moz-box-sizing: content-box;
-    box-sizing: content-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body{
@@ -14,13 +14,17 @@ hr{
     border: 0.5px solid #e2e2e2;
 }
 
+.author-head{
+    padding: 15px 0px;
+}
+
 /* NavBar */
 nav{
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid #e2e2e2;
     align-items: center;
-    padding: 0px 10px;
+    padding: 4px 10px;
     position: sticky;
     top: 0;
     background-color: white;
@@ -36,7 +40,7 @@ nav img{
  color: white;
  border: 1px solid rgb(50, 104, 145);
  border-radius: 3px;
- padding: 11px;
+ padding: 9px;
 }
 
 .space-cosmos:hover{
@@ -89,7 +93,7 @@ h1{
 }
 
 .first-text-container{
-    width:60%;
+    width:48%;
     margin: auto;
 }
 
@@ -99,21 +103,41 @@ h1{
     justify-content: space-between;
 }
 
-.head-new-buttons span{
+.head-new-buttons{
+    display: flex;
+    align-content: center;
+}
+
+
+
+
+.medialogo{
     display: inline-block;
-    width: 36px;
-    height: 36px;
+    width: 26px;
+    height: 26px;
     padding: 2px;
+    margin: 6px;
     background-color: #eee;
     border-radius: 50%;
+    border: 1px solid #eee;
+
+}
+
+.medialogo:hover{
+    background-color: white;
+    border: 1px solid #ccc;
+    cursor: pointer;
 }
 
 .media-icon{
-    width: 15px;
+    width: 13px;
+    position: relative;
+    left: 3px;
+    top: 3px;
 }
 
 .bookmark{
-    width: 12px;
+    width: 16px;
 }
 
 /**/
@@ -192,12 +216,11 @@ footer ul{
 
 .Inflation {
     width: 945px;
-    height: 576px;
     margin: auto;
     padding: 35px 0px;
     display: grid;
     grid-template-columns: repeat(4, auto);
-    grid-template-rows: 70px repeat(4,144px);
+    grid-template-rows: 70px repeat(3, 144px) 160px 60px;
 }
 
 .img-inflation {
@@ -212,9 +235,35 @@ footer ul{
 }
 .second-row{
     display: flex;
-    grid-area: 5/1/6    /5;
+    grid-area: 5/1/6/5;
     justify-content: space-between;
 }
+.author-inflation{
+    grid-area: 6/1/7/5;
+}
+.comment-icon{
+    width: 30px;
+    margin: 0px 0px 0px 15px;
+}
+
+.number{
+    position:relative;
+    right: 42px;
+    top: 15px;
+}
+
+.author-hr{
+    width: 60px;
+    height: 20px;
+    border-bottom: 1px solid black;
+    margin-bottom: 15px;
+}
+
+.telescope-img{
+    width: 100%;
+}
+
+
 .inflation-paragraphs{
     width: 228px;
     height: 120px;
@@ -229,3 +278,29 @@ footer ul{
 h4{
     padding: 5px 0px;
 }
+
+.article-item img{
+    width: 280px;
+}
+
+.article-item{
+    width: 100%;
+    padding: 10px;
+}
+
+.MostPopular{
+    float: right;
+    width: 24%;
+}
+
+.rows-asside{
+    display: flex;
+    width: 60%;
+}
+
+.assides{
+    padding: 39px;
+}
+
+
+
