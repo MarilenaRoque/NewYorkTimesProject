@@ -44,7 +44,7 @@ nav img{
     width: 210px;
 }
 
-.nav-buttons{
+.buttons{
  background-color: rgb(86, 123, 149);
  color: white;
  border: 1px solid rgb(50, 104, 145);
@@ -311,7 +311,6 @@ h4{
     width: 100%;
     padding: 10px;
 }
-
 .MostPopular{
     float: right;
     width: 30%;
