@@ -263,10 +263,16 @@ footer ul{
     width: 30px;
     margin-left: 15px;
 }
+.comment-icon-section:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+
 .number{
     position:relative;
-    right: 25px;
-    top: 5px;
+    right: 29px;
+    top: -15px;
     font-size: smaller;
 }
 .author-hr{
@@ -333,7 +339,7 @@ h4{
     width: 100%;
 }
 .assides{
-    padding: 45px;  
+    padding: 60px;  
     
 }
 .asides-hr{
