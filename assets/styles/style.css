@@ -1,21 +1,17 @@
 /* GENERAL*/
-
 *, *:after, *:before{
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
-
 body{
     font-family: 'Crimson Text', serif;
     color: black;
 
 }
-
 hr{
     border: 0.5px solid #e2e2e2;
 }
-
 .author-head{
     padding: 15px 0px;
 }
@@ -185,7 +181,6 @@ h1{
 .linktext:hover{text-decoration: none;}
 
 /* menu-footer */
-
 .footertitle{
     display: flex;
     justify-content: space-between;
@@ -193,7 +188,6 @@ h1{
     border-top: 3px double #e2e2e2;
     padding: 8px 0px;
 }
-
 .footertitle img{
     width: 200px;
 }
@@ -263,27 +257,18 @@ footer ul{
 .author-inflation{
     grid-area: 6/1/7/5;
 }
+
+/*top buttons*/
 .comment-icon{
-    width: 35px;
-    margin: 0px 0px 0px 15px;
-
+    width: 30px;
+    margin-left: 15px;
 }
-
-.comment-icon:hover{
-
-    opacity: 0.5;
-    cursor: pointer;
-}
-
 .number{
-    font-size: 14px;
-    font-family: 'Crimson Text', serif;
     position:relative;
-    right: 24px;
+    right: 25px;
     top: 5px;
-    z-index: -1;
+    font-size: smaller;
 }
-
 .author-hr{
     width: 60px;
     height: 20px;
@@ -328,9 +313,11 @@ footer ul{
 h4{
     padding: 5px 0px;
 }
+
     .article-item img{
         width: 100%; /*MARILENA*/
     }
+
 .article-item{
     width: 100%;
     padding: 10px;
@@ -338,24 +325,34 @@ h4{
 .MostPopular{
     float: right;
     width: 30%;
+    padding:0px 25px;
 }
 
 .rows-asside{
     display: flex;
-    width: 60%;
+    width: 100%;
+}
+.assides{
+    padding: 45px;  
+    
+}
+.asides-hr{
+    border-color: black;
+    margin: 25px 0px;
+}
+.EditorPicks, .SpaceAstronomy{
+    width: 70%;
 }
 
-.assides{
-    padding: 45px;
+.popular-item{
+    padding: 5px;
+    line-height: 25px;
 }
-/* titles inside main*/
 h3{
     padding: 20px 0px;
     font-weight: bolder;
 }
-
 .figure-caption-items{
-    color: #888;
     font-size: 13px;
     text-align: right;
 }
@@ -366,3 +363,7 @@ iframe{
     padding-top: 50px;
 }
 
+.pharagraph-section p{
+    margin: 15px 0px;
+    line-height: 27px;
+}
