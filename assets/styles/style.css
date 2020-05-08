@@ -328,20 +328,16 @@ footer ul{
 h4{
     padding: 5px 0px;
 }
-
-.article-item img{
-    width: 100%;
-}
-
+    .article-item img{
+        width: 100%; /*MARILENA*/
+    }
 .article-item{
     width: 100%;
     padding: 10px;
 }
-
 .MostPopular{
     float: right;
-    clear: both;
-    width: 27.5%;
+    width: 30%;
 }
 
 .rows-asside{
@@ -351,7 +347,6 @@ h4{
 
 .assides{
     padding: 45px;
-    min-width: 955px;
 }
 /* titles inside main*/
 h3{
