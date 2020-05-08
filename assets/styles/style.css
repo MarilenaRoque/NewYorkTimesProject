@@ -23,19 +23,24 @@ h1 {
   margin: auto;
   padding: 50px 0;
   font-size: 40px;
-}
-
-h3 {
-  padding: 20px 0;
   font-weight: bolder;
 }
 
-h4 {
-  padding: 5px 0;
+h2 {
+  padding: 20px 0;
+  font-weight: bolder;
+  font-size: 23px;
 }
 
-h6 {
-  font-weight: bold;
+h3 {
+  padding: 5px 0;
+  font-weight: bolder;
+  font-size: 20px;
+  font-family: 'Crimson Text', serif;
+}
+
+h4 {
+  font-weight: bolder;
 }
 
 hr {
@@ -142,6 +147,8 @@ nav img {
 .pharagraph-section p {
   margin: 15px 0;
   line-height: 27px;
+  font-size: 23px;
+  color:  #333; 
 }
 
 .medialogo {
@@ -187,6 +194,8 @@ nav img {
   margin: auto;
   padding: 20px 0;
   text-align: center;
+  font-size: 18px;
+  font-weight: 800;
 }
 
 .hr-login {
@@ -199,7 +208,7 @@ nav img {
   line-height: 20px;
 }
 
-/* Main Infation section */
+/* Main Inflation section */
 .Inflation {
   width: 945px;
   margin: auto;
@@ -244,6 +253,12 @@ nav img {
   line-height: 20px;
 }
 
+.paragraph-title-inf{
+    font-weight: 800;
+    color: black;
+    font-size: 11px;
+}
+
 /* Main video */
 iframe {
   width: 98%;
@@ -281,8 +296,10 @@ iframe {
   width: 100%;
 }
 
-.assides {
+.asides {
   padding: 60px;
+  font-size: 20px;
+  font-family: 'Crimson Text', serif;
 }
 
 .asides-hr {
@@ -348,25 +365,45 @@ footer ul {
   padding-bottom: 25px;
 }
 
-/* font clases */
-.font-ch { font-family: 'Crimson Text', serif; }
-.font-imp { font-family: 'Roboto Mono', monospace; }
+/* font classes */
 .font-fr { font-family: Arial, Helvetica, sans-serif; }
-.font-23 { font-size: 23px; }
-.font-20 { font-size: 20px; }
-.font-18 { font-size: 18px; }
-.font-16 { font-size: 16px; }
-.font-15 { font-size: 15px; }
-.font-14 { font-size: 14px; }
 .font-13 { font-size: 13px; }
 .font-12 { font-size: 12px; }
-.font-11 { font-size: 11px; }
 .font-10 { font-size: 10px; }
-.bold { font-weight: bolder; }
-.bolder { font-weight: 800; }
-.darkgray { color: #333; }
 .mediumgray { color: #666; }
-.lightgray { color: #888; }
 .blue { color: #326891; }
 .linktext { text-decoration: underline; }
 .linktext:hover { text-decoration: none; }
+
+
+.bigcaption{
+    font-family: 'Crimson Text', serif;;
+    font-size: 16px;
+    color: #666;
+}
+
+.smallcaption{
+    color: #888;
+    font-size: 12px;
+}
+
+.light-15{
+    color: #888;
+    font-size: 15px;
+}
+
+.bold-15{
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+.bolder-titles{
+    font-size: 14px;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
