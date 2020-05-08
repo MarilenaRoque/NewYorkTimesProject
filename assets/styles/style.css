@@ -8,6 +8,7 @@
 
 body{
     font-family: 'Crimson Text', serif;
+    color: black;
 
 }
 
@@ -36,13 +37,23 @@ nav img{
     width: 210px;
 }
 
-.nav-buttons{
+.buttons{
  background-color: rgb(86, 123, 149);
  color: white;
+ font-family: Arial, Helvetica, sans-serif;
+ font-weight: bolder;
+ font-size: 11px;
  border: 1px solid rgb(50, 104, 145);
  border-radius: 3px;
  padding: 9px;
  cursor: pointer;
+}
+
+
+.space-cosmos{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 800;   
 }
 
 .space-cosmos:hover{
@@ -319,7 +330,7 @@ h4{
 }
 
 .article-item img{
-    width: 280px;
+    width: 100%;
 }
 
 .article-item{
