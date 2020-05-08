@@ -8,15 +8,8 @@
 
 body{
     font-family: 'Crimson Text', serif;
-}
+    color: black;
 
-/**/
-
-
-iframe{
-    width:98%;
-    height:400px;
-    padding-top: 50px;
 }
 
 hr{
@@ -47,9 +40,20 @@ nav img{
 .buttons{
  background-color: rgb(86, 123, 149);
  color: white;
+ font-family: Arial, Helvetica, sans-serif;
+ font-weight: bolder;
+ font-size: 11px;
  border: 1px solid rgb(50, 104, 145);
  border-radius: 3px;
  padding: 9px;
+ cursor: pointer;
+}
+
+
+.space-cosmos{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 800;   
 }
 
 .space-cosmos:hover{
@@ -109,12 +113,16 @@ h1{
 .head-new{
     display: flex;
     justify-content: space-between;
+    
 }
 
 .head-new-buttons{
     display: flex;
     align-content: center;
+    justify-content: space-between;
 }
+
+
 
 
 .medialogo{
@@ -126,8 +134,11 @@ h1{
     display: flex;
     justify-content: center;
     justify-items: center;
+    margin: 0px 10px;
 
 }
+
+
 
 .medialogo:hover{
     background-color: white;
@@ -137,10 +148,15 @@ h1{
 
 .media-icon{
     width: 13px;
+
 }
 
 .bookmark{
     width: 16px;
+    cursor: pointer;
+}
+.bookmark:hover{
+    opacity: 0.5;
 }
 
 /**/
@@ -248,14 +264,24 @@ footer ul{
     grid-area: 6/1/7/5;
 }
 .comment-icon{
-    width: 30px;
+    width: 35px;
     margin: 0px 0px 0px 15px;
+
+}
+
+.comment-icon:hover{
+
+    opacity: 0.5;
+    cursor: pointer;
 }
 
 .number{
+    font-size: 14px;
+    font-family: 'Crimson Text', serif;
     position:relative;
-    right: 42px;
-    top: 15px;
+    right: 24px;
+    top: 5px;
+    z-index: -1;
 }
 
 .author-hr{
@@ -302,11 +328,9 @@ footer ul{
 h4{
     padding: 5px 0px;
 }
-
     .article-item img{
         width: 100%; /*MARILENA*/
     }
-
 .article-item{
     width: 100%;
     padding: 10px;
@@ -318,26 +342,27 @@ h4{
 
 .rows-asside{
     display: flex;
-    width: 100%;
+    width: 60%;
 }
 
 .assides{
-    padding: 45px;  
+    padding: 45px;
 }
-
-.EditorPicks, .SpaceAstronomy{
-    width: 70%;
-}
-
+/* titles inside main*/
 h3{
     padding: 20px 0px;
     font-weight: bolder;
 }
 
 .figure-caption-items{
+    color: #888;
     font-size: 13px;
     text-align: right;
 }
 
-
+iframe{
+    width:98%;
+    height:400px;
+    padding-top: 50px;
+}
 
