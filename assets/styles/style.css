@@ -10,6 +10,15 @@ body{
     font-family: 'Crimson Text', serif;
 }
 
+/**/
+
+
+iframe{
+    width:98%;
+    height:400px;
+    padding-top: 50px;
+}
+
 hr{
     border: 0.5px solid #e2e2e2;
 }
@@ -331,10 +340,5 @@ h3{
     text-align: right;
 }
 
-iframe{
-    width:98%;
-    height:400px;
-    padding-top: 50px;
-}
 
 
