@@ -15,6 +15,7 @@ body {
 a {
   text-decoration: none;
   color: black;
+  cursor: pointer;
 }
 
 h1 {
@@ -148,7 +149,7 @@ nav img {
   margin: 15px 0;
   line-height: 27px;
   font-size: 23px;
-  color:  #333; 
+  color: #333;
 }
 
 .medialogo {
@@ -253,10 +254,10 @@ nav img {
   line-height: 20px;
 }
 
-.paragraph-title-inf{
-    font-weight: 800;
-    color: black;
-    font-size: 11px;
+.paragraph-title-inf {
+  font-weight: 800;
+  color: black;
+  font-size: 11px;
 }
 
 /* Main video */
@@ -264,7 +265,6 @@ iframe {
   width: 98%;
   height: 400px;
   padding-top: 50px;
-  border: 
 }
 
 /* Main telescope section */
@@ -348,8 +348,13 @@ iframe {
 
 .subscribefooter {
   border-left: 0.5px solid #e2e2e2;
-  padding: 15px;
-  width: 197px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  width: 220px;
+}
+
+.subscribe-list {
+  padding-top: 15px;
 }
 
 .footer-column {
@@ -362,8 +367,11 @@ footer ul {
   justify-content: space-around;
   width: 77%;
   margin: auto;
-  letter-spacing: -1px;
   padding-bottom: 25px;
+}
+
+footer a {
+  color: #666;
 }
 
 /* font classes */
@@ -376,35 +384,29 @@ footer ul {
 .linktext { text-decoration: underline; }
 .linktext:hover { text-decoration: none; }
 
-
-.bigcaption{
-    font-family: 'Crimson Text', serif;;
-    font-size: 16px;
-    color: #666;
+.bigcaption {
+  font-family: 'Crimson Text', serif;
+  font-size: 16px;
+  color: #666;
 }
 
-.smallcaption{
-    color: #888;
-    font-size: 12px;
+.smallcaption {
+  color: #888;
+  font-size: 12px;
 }
 
-.light-15{
-    color: #888;
-    font-size: 15px;
+.light-15 {
+  color: #888;
+  font-size: 15px;
 }
 
-.bold-15{
-    font-weight: bolder;
-    font-size: 15px;
+.bold-15 {
+  font-weight: bolder;
+  font-size: 15px;
 }
 
-.bolder-titles{
-    font-size: 14px;
-    font-weight: 800;
-    font-family: Arial, Helvetica, sans-serif;
+.bolder-titles {
+  font-size: 14px;
+  font-weight: 800;
+  font-family: Arial, Helvetica, sans-serif;
 }
-
-
-
-
-
