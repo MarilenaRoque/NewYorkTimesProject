@@ -292,6 +292,10 @@ iframe {
   padding: 0 25px;
 }
 
+.editor:hover {
+  text-decoration: underline;
+}
+
 .rows-asside {
   display: flex;
   width: 100%;
@@ -321,6 +325,7 @@ iframe {
 .figure-caption-items {
   font-size: 13px;
   text-align: right;
+  color: #999;
 }
 
 /* Footer menu */
@@ -409,4 +414,13 @@ footer a {
   font-size: 14px;
   font-weight: 800;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+/* hover changes */
+.article-item a:hover {
+  color: rgb(102, 102, 102);
+}
+
+.popular-item a:hover {
+  color: rgb(102, 102, 102);
 }
