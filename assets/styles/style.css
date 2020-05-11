@@ -280,16 +280,26 @@ iframe {
 .article-item img {
   width: 100%;
 }
-
+.article-item a:hover {
+  color: rgb(102, 102, 102);
+}
 .article-item {
   width: 100%;
   padding: 10px;
+}
+
+.popular-item a:hover{
+  color: rgb(102, 102, 102);
 }
 
 .MostPopular {
   float: right;
   width: 30%;
   padding: 0 25px;
+}
+
+.editor:hover {
+  text-decoration: underline;
 }
 
 .rows-asside {
