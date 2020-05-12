@@ -1,0 +1,426 @@
+/* GENERAL */
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Crimson Text', serif;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+h1 {
+  font-style: italic;
+  width: 600px;
+  margin: auto;
+  padding: 50px 0;
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+h2 {
+  padding: 20px 0;
+  font-weight: bolder;
+  font-size: 23px;
+}
+
+h3 {
+  padding: 5px 0;
+  font-weight: bolder;
+  font-size: 20px;
+  font-family: 'Crimson Text', serif;
+}
+
+h4 {
+  font-weight: bolder;
+}
+
+hr {
+  border: 0.5px solid #e2e2e2;
+}
+
+.buttons {
+  background-color: rgb(86, 123, 149);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  font-size: 11px;
+  border: 1px solid rgb(50, 104, 145);
+  border-radius: 3px;
+  padding: 9px;
+  cursor: pointer;
+}
+
+/* Nav-bar */
+.left-nav {
+  display: flex;
+  align-items: center;
+}
+
+.space-cosmos:hover {
+  text-decoration: underline;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #e2e2e2;
+  align-items: center;
+  padding: 4px 10px;
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+
+nav img {
+  width: 210px;
+}
+
+/* Main Image */
+.img-mainNew {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+}
+
+.principal-img {
+  width: 100%;
+}
+
+.img-mainNew figcaption {
+  width: 85%;
+  line-height: 25px;
+}
+
+.author-head {
+  padding: 15px 0;
+}
+
+.material-icons {
+  font-size: 20px !important;
+  padding-right: 20px;
+}
+
+.comment-icon {
+  width: 30px;
+  margin-left: 15px;
+}
+
+.comment-icon-section:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.number {
+  position: relative;
+  right: 29px;
+  top: -15px;
+  font-size: smaller;
+}
+
+.head-new {
+  display: flex;
+  justify-content: space-between;
+}
+
+.head-new-buttons {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+}
+
+/* Main general */
+.text-container {
+  width: 48%;
+  margin: auto;
+}
+
+.pharagraph-section p {
+  margin: 15px 0;
+  line-height: 27px;
+  font-size: 23px;
+  color: #333;
+}
+
+.medialogo {
+  width: 26px;
+  height: 26px;
+  background-color: #eee;
+  border-radius: 50%;
+  border: 1px solid #eee;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  margin: 0 10px;
+}
+
+.medialogo:hover {
+  background-color: white;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.media-icon {
+  width: 13px;
+}
+
+.bookmark {
+  width: 16px;
+  cursor: pointer;
+}
+
+.bookmark:hover {
+  opacity: 0.5;
+}
+
+.author-hr {
+  width: 60px;
+  height: 20px;
+  border-bottom: 1px solid black;
+  margin-bottom: 15px;
+}
+
+.login-division {
+  display: block;
+  margin: auto;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.hr-login {
+  width: 72px;
+  border-color: rgb(182, 179, 179);
+}
+
+.login-text {
+  padding: 10px;
+  line-height: 20px;
+}
+
+/* Main Inflation section */
+.Inflation {
+  width: 945px;
+  margin: auto;
+  padding: 35px 0;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-template-rows: 70px repeat(3, 144px) 160px 60px;
+}
+
+.author-inflation {
+  grid-area: 6/1/7/5;
+}
+
+.img-inflation {
+  width: 945px;
+  height: 576px;
+  grid-area: 2/1/5/5;
+}
+
+.first-row {
+  display: flex;
+  grid-area: 3/1/4/5;
+  justify-content: space-between;
+}
+
+.second-row {
+  display: flex;
+  grid-area: 5/1/6/5;
+  justify-content: space-between;
+}
+
+.inflation-paragraphs {
+  width: 228px;
+  height: 120px;
+  line-height: 18px;
+  letter-spacing: 0.4px;
+  color: rgb(61, 60, 60);
+}
+
+.Title-inflation {
+  grid-area: 1/ 1/ 2/ 5;
+  line-height: 20px;
+}
+
+.paragraph-title-inf {
+  font-weight: 800;
+  color: black;
+  font-size: 11px;
+}
+
+/* Main video */
+iframe {
+  width: 98%;
+  height: 400px;
+  padding-top: 50px;
+}
+
+/* Main telescope section */
+.telescope-img {
+  width: 100%;
+}
+
+.Telescope {
+  padding: 40px 0;
+}
+
+/* Aside section */
+.article-item img {
+  width: 100%;
+}
+
+.article-item {
+  width: 100%;
+  padding: 10px;
+}
+
+.MostPopular {
+  float: right;
+  width: 30%;
+  padding: 0 25px;
+}
+
+.editor:hover {
+  text-decoration: underline;
+}
+
+.rows-asside {
+  display: flex;
+  width: 100%;
+}
+
+.asides {
+  padding: 60px;
+  font-size: 20px;
+  font-family: 'Crimson Text', serif;
+}
+
+.asides-hr {
+  border-color: black;
+  margin: 25px 0;
+}
+
+.EditorPicks,
+.SpaceAstronomy {
+  width: 70%;
+}
+
+.popular-item {
+  padding: 5px;
+  line-height: 25px;
+}
+
+.figure-caption-items {
+  font-size: 13px;
+  text-align: right;
+  color: #999;
+}
+
+/* Footer menu */
+.navfooter {
+  margin: 0 35px;
+  padding: 0 40px 9px;
+}
+
+.footertitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 3px double #e2e2e2;
+  padding: 8px 0;
+}
+
+.footer-all-columns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footertitle img {
+  width: 200px;
+}
+
+.subscribefooter {
+  border-left: 0.5px solid #e2e2e2;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  width: 220px;
+}
+
+.subscribe-list {
+  padding-top: 15px;
+}
+
+.footer-column {
+  line-height: 25px;
+}
+
+/* Footer */
+footer ul {
+  display: flex;
+  justify-content: space-around;
+  width: 77%;
+  margin: auto;
+  padding-bottom: 25px;
+}
+
+footer a {
+  color: #666;
+}
+
+/* font classes */
+.font-fr { font-family: Arial, Helvetica, sans-serif; }
+.font-13 { font-size: 13px; }
+.font-12 { font-size: 12px; }
+.font-10 { font-size: 10px; }
+.mediumgray { color: #666; }
+.blue { color: #326891; }
+.linktext { text-decoration: underline; }
+.linktext:hover { text-decoration: none; }
+
+.bigcaption {
+  font-family: 'Crimson Text', serif;
+  font-size: 16px;
+  color: #666;
+}
+
+.smallcaption {
+  color: #888;
+  font-size: 12px;
+}
+
+.light-15 {
+  color: #888;
+  font-size: 15px;
+}
+
+.bold-15 {
+  font-weight: bolder;
+  font-size: 15px;
+}
+
+.bolder-titles {
+  font-size: 14px;
+  font-weight: 800;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* hover changes */
+.article-item a:hover {
+  color: rgb(102, 102, 102);
+}
+
+.popular-item a:hover {
+  color: rgb(102, 102, 102);
+}
