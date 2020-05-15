@@ -36,7 +36,7 @@ Url: /home/acer/readme-template/README.md
 
 👤 **Jessica Farias**
 
-- Github: [krash46](https://github.com/krash46)
+- Github: [jessicafarias](https://github.com/jessicafarias)
 - Twitter: [@FariasRosado](https://twitter.com/FariasRosado)
 - Linkedin: [jessica-michelle-farias-rosado](https://www.linkedin.com/in/jessica-michelle-farias-rosado/)
 
